@@ -9,11 +9,12 @@ $(function(){
     var myData = data.Search;
     showResults(myData);
     console.log(myData);
+    var params = {
+      part: 'snippet',
+      key: 'AIzaSyDDVUcMpTZeyPo0UTVB0wRlZVsc1Q00zxk',
+      q: 'searchTerm'
+    }
     
-    part: 'snippet'
-    key: your API key as a string
-    q: put the search term here in the form of a string
-
   	function showResults(results){
 	    for (var i = 0; i < data.Search.length; i++) {
          $('.search-results').append('<span>' + data.Search[i].Title + '</span><br>');
