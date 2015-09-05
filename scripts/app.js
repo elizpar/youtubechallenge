@@ -18,6 +18,7 @@ $(function(){
     showResults(data.items);
      
     function showResults(results){
+      $('.search-results').empty();
       for (var i = 0; i < results.length; i++) {
       var vidId = results[i].id.videoId;
       console.log(vidId);
