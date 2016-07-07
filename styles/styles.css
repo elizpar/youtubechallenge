@@ -1,0 +1,76 @@
+
+body {
+    background-color: white;
+    font-family: 'Avenir next', sans-serif;
+    background-image: url("fading-paint-texture.jpg");
+    background-size: cover;
+}
+
+.masthead-heading,
+.masthead-intro {
+    margin-bottom: 0.1em;
+    
+
+
+}
+
+.text-background {
+    margin: 0 auto;
+    background-color: white;
+    padding: 100px;
+    opacity: .70;
+    width: 400px;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-size: cover;
+    text-align: center;
+    margin right: 5px;
+    
+}
+
+.masthead-heading {
+    font-weight: 400;
+}
+
+.content {
+  width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  opacity: .70;
+  text-align: center;
+  padding:10px;
+}
+
+.footer {
+width: 20px;
+}
+
+#github {
+    width: 100px;
+}
+
+#linkedin {
+    width: 75px;
+    margin-bottom: 9px;
+    opacity: .85;
+}
+
+.icons {
+    vertical-align: center;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: 000000;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:active {
+    text-decoration: underline;
+}
